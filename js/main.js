@@ -178,6 +178,13 @@ function setupMobileDrawer() {
       closeDrawer();
     }
   });
+
+  // Reset mobile drawer state if viewport widens to desktop
+  window.addEventListener("resize", () => {
+    if (window.innerWidth > 1024 && navMenu.classList.contains("open")) {
+      closeDrawer();
+    }
+  });
 }
 
 // Sticky Header: Scroll hone par shadow lagana

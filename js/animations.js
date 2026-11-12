@@ -37,8 +37,8 @@ function initScrollReveals() {
     },
     {
       root: null,
-      threshold: 0.12,
-      rootMargin: "0px 0px -40px 0px"
+      threshold: 0.05,
+      rootMargin: "0px 0px -16px 0px"
     }
   );
 
@@ -123,7 +123,7 @@ function initFaqAccordion() {
         content.style.maxHeight = null;
       } else {
         item.classList.add("active");
-        content.style.maxHeight = content.scrollHeight + "px";
+        content.style.maxHeight = (content.scrollHeight + 80) + "px";
       }
     });
   });
