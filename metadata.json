@@ -1,0 +1,6 @@
+{
+  "name": "Winners Academy & School",
+  "description": "Official institutional website for Winners Grammar School & Academy celebrating 16 years of educational excellence, featuring school education, academy coaching, computer studies, English language, and calligraphy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
